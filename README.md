@@ -1,2 +1,4 @@
-# smartWebman
-精简的webman脚手架
+# 单元测试案例
+ ```
+ ./vendor/bin/phpunit --bootstrap  ./support/bootstrap.php tests/TestConfig.php
+ ```
