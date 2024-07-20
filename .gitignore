@@ -1,0 +1,16 @@
+/.idea
+/.vscode
+/vendor
+*.log
+.env
+/tests/tmp
+/tests/.phpunit.result.cache
+/config/database.php
+/public/userqrcode
+./composer.lock
+public/.well-known/
+public/.user.ini
+public/index.html
+public/notice.html
+.DS_Store
+composer.lock
