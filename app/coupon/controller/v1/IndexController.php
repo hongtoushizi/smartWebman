@@ -12,6 +12,7 @@ class IndexController
         if (!$readme) {
             $readme = file_get_contents(base_path('README.md'));
         }
+
         return $readme;
     }
 

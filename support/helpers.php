@@ -241,9 +241,6 @@ function think_view(string $template, array $vars = [], string $app = null): Res
  * @param array $vars
  * @param string|null $app
  * @return Response
- * @throws LoaderError
- * @throws RuntimeError
- * @throws SyntaxError
  */
 function twig_view(string $template, array $vars = [], string $app = null): Response
 {

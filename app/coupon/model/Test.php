@@ -1,6 +1,6 @@
 <?php
 
-namespace app\activity\model;
+namespace app\coupon\model;
 
 use support\Model;
 
