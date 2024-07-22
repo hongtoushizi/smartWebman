@@ -193,7 +193,7 @@ function redirect(string $location, int $status = 302, array $headers = []): Res
 function view(string $template, array $vars = [], string $app = null, string $plugin = null): Response
 {
     $request = \request();
-    $plugin = $plugin === null ? ($request->plugin ?? '') : $plugin;
+    $plugin  = $plugin === null ? ($request->plugin ?? '') : $plugin;
     $handler = \config($plugin ? "plugin.$plugin.view.handler" : 'view.handler');
     return new Response(200, [], $handler::render($template, $vars, $app, $plugin));
 }
@@ -312,7 +312,7 @@ function session($key = null, $default = null)
     }
     if (strpos($key, '.')) {
         $keyArray = explode('.', $key);
-        $value = $session->all();
+        $value    = $session->all();
         foreach ($keyArray as $index) {
             if (!isset($value[$index])) {
                 return $default;
@@ -438,8 +438,8 @@ function worker_bind($worker, $class)
  */
 function worker_start($processName, $config)
 {
-    $worker = new Worker($config['listen'] ?? null, $config['context'] ?? []);
-    $propertyMap = [
+    $worker       = new Worker($config['listen'] ?? null, $config['context'] ?? []);
+    $propertyMap  = [
         'count',
         'user',
         'group',

@@ -14,3 +14,4 @@ public/index.html
 public/notice.html
 .DS_Store
 composer.lock
+.idea
