@@ -5,28 +5,41 @@ namespace app\user\controller\v1;
 use support\Redis;
 use support\Request;
 use Webman\Medoo\Medoo;
+use think\Validate;
 
 class UserController
 {
     public function index(Request $request)
     {
-        $user = Medoo::get('user', '*', ['uid' => 1]);
+        $param = $request->all();
+        $user  = Medoo::get('user', '*', ['uid' => 1]);
 
 
         $rule = [
-            'name'  => 'require|max:25',
-            'age'   => 'number|between:1,120',
-            'email' => 'email'
+            'user_id'    => 'require|number',
+            'order_no'   => 'require',
+            'order_type' => 'require|number|between:1,4',
+            'open_id'    => 'require',
+            'amount'     => 'require|number',
+            'act_name'   => 'require',
+            'remark'     => 'require',
+            'wishing'    => 'require',
+            'trace_id'   => 'require',
         ];
 
         $message = [
-            'name.require' => '名称必须',
-            'name.max'     => '名称最多不能超过25个字符',
-            'age.number'   => '年龄必须是数字',
-            'age.between'  => '年龄只能在1-120之间',
-            'email'        => '邮箱格式错误',
+            'user_id.require' => '用户ID必传',
+            'user_id.number'  => '用户ID必须是整数',
+            'user_id.gt'      => '用户ID必须大于0 ',
+            'open_id.require' => 'open_id必传',
+
         ];
-        response("ok");
+        $v       = new Validate();
+        if (!$v->rule($rule)->message($message)->check($param)) {
+            $err = json_encode($v->getError());
+            return $this->jsonError();
+        }
+        json("ok");
     }
 
     public function testRedis(Request $request)
