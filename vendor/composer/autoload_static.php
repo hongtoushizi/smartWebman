@@ -52,6 +52,7 @@ class ComposerStaticInit6ec3c93a41026fd9ff565142f2ec2413
         ),
         'T' => 
         array (
+            'Tinywan\\Xhprof\\' => 15,
             'Tinywan\\Jwt\\' => 12,
         ),
         'S' => 
@@ -90,7 +91,9 @@ class ComposerStaticInit6ec3c93a41026fd9ff565142f2ec2413
             'Illuminate\\Support\\' => 19,
             'Illuminate\\Redis\\' => 17,
             'Illuminate\\Pipeline\\' => 20,
+            'Illuminate\\Pagination\\' => 22,
             'Illuminate\\Events\\' => 18,
+            'Illuminate\\Database\\' => 20,
             'Illuminate\\Contracts\\' => 21,
             'Illuminate\\Container\\' => 21,
             'Illuminate\\Bus\\' => 15,
@@ -115,6 +118,10 @@ class ComposerStaticInit6ec3c93a41026fd9ff565142f2ec2413
             'Complex\\' => 8,
             'Carbon\\Doctrine\\' => 16,
             'Carbon\\' => 7,
+        ),
+        'B' => 
+        array (
+            'Brick\\Math\\' => 11,
         ),
         'A' => 
         array (
@@ -156,6 +163,10 @@ class ComposerStaticInit6ec3c93a41026fd9ff565142f2ec2413
         'Webman\\' => 
         array (
             0 => __DIR__ . '/..' . '/workerman/webman-framework/src',
+        ),
+        'Tinywan\\Xhprof\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/tinywan/webman-xhprof/src',
         ),
         'Tinywan\\Jwt\\' => 
         array (
@@ -252,9 +263,9 @@ class ComposerStaticInit6ec3c93a41026fd9ff565142f2ec2413
         ),
         'Illuminate\\Support\\' => 
         array (
-            0 => __DIR__ . '/..' . '/illuminate/collections',
+            0 => __DIR__ . '/..' . '/illuminate/macroable',
             1 => __DIR__ . '/..' . '/illuminate/conditionable',
-            2 => __DIR__ . '/..' . '/illuminate/macroable',
+            2 => __DIR__ . '/..' . '/illuminate/collections',
             3 => __DIR__ . '/..' . '/illuminate/support',
         ),
         'Illuminate\\Redis\\' => 
@@ -265,9 +276,17 @@ class ComposerStaticInit6ec3c93a41026fd9ff565142f2ec2413
         array (
             0 => __DIR__ . '/..' . '/illuminate/pipeline',
         ),
+        'Illuminate\\Pagination\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/illuminate/pagination',
+        ),
         'Illuminate\\Events\\' => 
         array (
             0 => __DIR__ . '/..' . '/illuminate/events',
+        ),
+        'Illuminate\\Database\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/illuminate/database',
         ),
         'Illuminate\\Contracts\\' => 
         array (
@@ -316,6 +335,10 @@ class ComposerStaticInit6ec3c93a41026fd9ff565142f2ec2413
         'Carbon\\' => 
         array (
             0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
+        ),
+        'Brick\\Math\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/brick/math/src',
         ),
         'App\\' => 
         array (

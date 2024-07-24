@@ -4,6 +4,7 @@ namespace app\shop\controller\v1;
 
 use support\Redis;
 use support\Request;
+use support\Response;
 use Webman\Medoo\Medoo;
 
 class UserController
@@ -31,16 +32,8 @@ class UserController
 
     public function testRedis(Request $request)
     {
-        $key = 'test';
-        Redis::set($key, 'test');
 
-
-        Redis::pipeline(function ($pipe) {
-            for ($i = 0; $i < 1000; $i++) {
-                $pipe->set("key:$i", $i);
-            }
-        });
-
+        response("ok");
     }
 
 

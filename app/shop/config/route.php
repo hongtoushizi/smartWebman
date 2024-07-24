@@ -18,8 +18,8 @@ use app\shop\controller\v1\UserController;
 use Webman\Route;
 
 Route::group('/api/shop/v1', function () {
-    Route::post('/can/user/list', [UserController::class, 'testRedis'])->middleware([
-        AuthToken::class
+    Route::any('/can/user/list', [UserController::class, 'testRedis'])->middleware([
+//        AuthToken::class
     ]);
 
 })->middleware([

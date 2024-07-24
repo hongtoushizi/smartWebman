@@ -1,27 +1,74 @@
 {
     "packages": [
         {
-            "name": "carbonphp/carbon-doctrine-types",
-            "version": "3.2.0",
-            "version_normalized": "3.2.0.0",
+            "name": "brick/math",
+            "version": "0.12.1",
+            "version_normalized": "0.12.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.tencent.com/repository/composer/carbonphp/carbon-doctrine-types/3.2.0/carbonphp-carbon-doctrine-types-3.2.0.zip",
-                "reference": "18ba5ddfec8976260ead6e866180bd5d2f71aa1d",
+                "url": "https://mirrors.tencent.com/repository/composer/brick/math/0.12.1/brick-math-0.12.1.zip",
+                "reference": "f510c0a40911935b77b86859eb5223d58d660df1",
                 "shasum": ""
             },
             "require": {
                 "php": "^8.1"
             },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.2",
+                "phpunit/phpunit": "^10.1",
+                "vimeo/psalm": "5.16.0"
+            },
+            "time": "2023-11-29T23:19:16+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Brick\\Math\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Arbitrary-precision arithmetic library",
+            "keywords": [
+                "Arbitrary-precision",
+                "BigInteger",
+                "BigRational",
+                "arithmetic",
+                "bigdecimal",
+                "bignum",
+                "bignumber",
+                "brick",
+                "decimal",
+                "integer",
+                "math",
+                "mathematics",
+                "rational"
+            ],
+            "install-path": "../brick/math"
+        },
+        {
+            "name": "carbonphp/carbon-doctrine-types",
+            "version": "2.1.0",
+            "version_normalized": "2.1.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://mirrors.tencent.com/repository/composer/carbonphp/carbon-doctrine-types/2.1.0/carbonphp-carbon-doctrine-types-2.1.0.zip",
+                "reference": "99f76ffa36cce3b70a4a6abce41dba15ca2e84cb",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 || ^8.0"
+            },
             "conflict": {
-                "doctrine/dbal": "<4.0.0 || >=5.0.0"
+                "doctrine/dbal": "<3.7.0 || >=4.0.0"
             },
             "require-dev": {
-                "doctrine/dbal": "^4.0.0",
+                "doctrine/dbal": "^3.7.0",
                 "nesbot/carbon": "^2.71.0 || ^3.0.0",
                 "phpunit/phpunit": "^10.3"
             },
-            "time": "2024-02-09T16:56:22+00:00",
+            "time": "2023-12-11T17:09:12+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -280,11 +327,11 @@
         },
         {
             "name": "illuminate/bus",
-            "version": "v10.48.16",
-            "version_normalized": "10.48.16.0",
+            "version": "v10.48.17",
+            "version_normalized": "10.48.17.0",
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.tencent.com/repository/composer/illuminate/bus/v10.48.16/illuminate-bus-v10.48.16.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/illuminate/bus/v10.48.17/illuminate-bus-v10.48.17.zip",
                 "reference": "252e200dacaeb168675cbf1aa26dbead57492a6c",
                 "shasum": ""
             },
@@ -326,11 +373,11 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v10.48.16",
-            "version_normalized": "10.48.16.0",
+            "version": "v10.48.17",
+            "version_normalized": "10.48.17.0",
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.tencent.com/repository/composer/illuminate/collections/v10.48.16/illuminate-collections-v10.48.16.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/illuminate/collections/v10.48.17/illuminate-collections-v10.48.17.zip",
                 "reference": "37c863cffb345869dd134eff8e646bc82a19cc96",
                 "shasum": ""
             },
@@ -374,11 +421,11 @@
         },
         {
             "name": "illuminate/conditionable",
-            "version": "v10.48.16",
-            "version_normalized": "10.48.16.0",
+            "version": "v10.48.17",
+            "version_normalized": "10.48.17.0",
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.tencent.com/repository/composer/illuminate/conditionable/v10.48.16/illuminate-conditionable-v10.48.16.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/illuminate/conditionable/v10.48.17/illuminate-conditionable-v10.48.17.zip",
                 "reference": "d0958e4741fc9d6f516a552060fd1b829a85e009",
                 "shasum": ""
             },
@@ -413,11 +460,11 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v10.48.16",
-            "version_normalized": "10.48.16.0",
+            "version": "v10.48.17",
+            "version_normalized": "10.48.17.0",
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.tencent.com/repository/composer/illuminate/container/v10.48.16/illuminate-container-v10.48.16.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/illuminate/container/v10.48.17/illuminate-container-v10.48.17.zip",
                 "reference": "ddc26273085fad3c471b2602ad820e0097ff7939",
                 "shasum": ""
             },
@@ -457,11 +504,11 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v10.48.16",
-            "version_normalized": "10.48.16.0",
+            "version": "v10.48.17",
+            "version_normalized": "10.48.17.0",
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.tencent.com/repository/composer/illuminate/contracts/v10.48.16/illuminate-contracts-v10.48.16.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/illuminate/contracts/v10.48.17/illuminate-contracts-v10.48.17.zip",
                 "reference": "8d7152c4a1f5d9cf7da3e8b71f23e4556f6138ac",
                 "shasum": ""
             },
@@ -497,12 +544,78 @@
             "install-path": "../illuminate/contracts"
         },
         {
-            "name": "illuminate/events",
-            "version": "v10.48.16",
-            "version_normalized": "10.48.16.0",
+            "name": "illuminate/database",
+            "version": "v10.48.17",
+            "version_normalized": "10.48.17.0",
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.tencent.com/repository/composer/illuminate/events/v10.48.16/illuminate-events-v10.48.16.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/illuminate/database/v10.48.17/illuminate-database-v10.48.17.zip",
+                "reference": "1e3989b81798d48ed0511c646eefed4626fad36f",
+                "shasum": ""
+            },
+            "require": {
+                "brick/math": "^0.9.3|^0.10.2|^0.11|^0.12",
+                "ext-pdo": "*",
+                "illuminate/collections": "^10.0",
+                "illuminate/container": "^10.0",
+                "illuminate/contracts": "^10.0",
+                "illuminate/macroable": "^10.0",
+                "illuminate/support": "^10.0",
+                "php": "^8.1"
+            },
+            "conflict": {
+                "carbonphp/carbon-doctrine-types": ">=3.0",
+                "doctrine/dbal": ">=4.0"
+            },
+            "suggest": {
+                "doctrine/dbal": "Required to rename columns and drop SQLite columns (^3.5.1).",
+                "ext-filter": "Required to use the Postgres database driver.",
+                "fakerphp/faker": "Required to use the eloquent factory builder (^1.21).",
+                "illuminate/console": "Required to use the database commands (^10.0).",
+                "illuminate/events": "Required to use the observers with Eloquent (^10.0).",
+                "illuminate/filesystem": "Required to use the migrations (^10.0).",
+                "illuminate/pagination": "Required to paginate the result set (^10.0).",
+                "symfony/finder": "Required to use Eloquent model factories (^6.2)."
+            },
+            "time": "2024-07-22T14:24:00+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "10.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\Database\\": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "The Illuminate Database package.",
+            "homepage": "https://laravel.com",
+            "keywords": [
+                "database",
+                "laravel",
+                "orm",
+                "sql"
+            ],
+            "install-path": "../illuminate/database"
+        },
+        {
+            "name": "illuminate/events",
+            "version": "v10.48.17",
+            "version_normalized": "10.48.17.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://mirrors.tencent.com/repository/composer/illuminate/events/v10.48.17/illuminate-events-v10.48.17.zip",
                 "reference": "a931bfa88edc6ac52c9abbfd7b769343d321d3eb",
                 "shasum": ""
             },
@@ -546,11 +659,11 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v10.48.16",
-            "version_normalized": "10.48.16.0",
+            "version": "v10.48.17",
+            "version_normalized": "10.48.17.0",
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.tencent.com/repository/composer/illuminate/macroable/v10.48.16/illuminate-macroable-v10.48.16.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/illuminate/macroable/v10.48.17/illuminate-macroable-v10.48.17.zip",
                 "reference": "dff667a46ac37b634dcf68909d9d41e94dc97c27",
                 "shasum": ""
             },
@@ -584,12 +697,55 @@
             "install-path": "../illuminate/macroable"
         },
         {
-            "name": "illuminate/pipeline",
-            "version": "v10.48.16",
-            "version_normalized": "10.48.16.0",
+            "name": "illuminate/pagination",
+            "version": "v10.48.17",
+            "version_normalized": "10.48.17.0",
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.tencent.com/repository/composer/illuminate/pipeline/v10.48.16/illuminate-pipeline-v10.48.16.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/illuminate/pagination/v10.48.17/illuminate-pagination-v10.48.17.zip",
+                "reference": "616874b9607ff35925347e1710a8b5151858cdf2",
+                "shasum": ""
+            },
+            "require": {
+                "ext-filter": "*",
+                "illuminate/collections": "^10.0",
+                "illuminate/contracts": "^10.0",
+                "illuminate/support": "^10.0",
+                "php": "^8.1"
+            },
+            "time": "2024-04-11T14:31:05+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "10.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\Pagination\\": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "The Illuminate Pagination package.",
+            "homepage": "https://laravel.com",
+            "install-path": "../illuminate/pagination"
+        },
+        {
+            "name": "illuminate/pipeline",
+            "version": "v10.48.17",
+            "version_normalized": "10.48.17.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://mirrors.tencent.com/repository/composer/illuminate/pipeline/v10.48.17/illuminate-pipeline-v10.48.17.zip",
                 "reference": "f802187e917a171332cc90f8c1a102939c57405d",
                 "shasum": ""
             },
@@ -626,11 +782,11 @@
         },
         {
             "name": "illuminate/redis",
-            "version": "v10.48.16",
-            "version_normalized": "10.48.16.0",
+            "version": "v10.48.17",
+            "version_normalized": "10.48.17.0",
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.tencent.com/repository/composer/illuminate/redis/v10.48.16/illuminate-redis-v10.48.16.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/illuminate/redis/v10.48.17/illuminate-redis-v10.48.17.zip",
                 "reference": "8a438aa70f4bf48973dfe8de9af3ad91cc5361a7",
                 "shasum": ""
             },
@@ -673,11 +829,11 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v10.48.16",
-            "version_normalized": "10.48.16.0",
+            "version": "v10.48.17",
+            "version_normalized": "10.48.17.0",
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.tencent.com/repository/composer/illuminate/support/v10.48.16/illuminate-support-v10.48.16.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/illuminate/support/v10.48.17/illuminate-support-v10.48.17.zip",
                 "reference": "263f389d81488c237846b69469f91387ca2729f3",
                 "shasum": ""
             },
@@ -3319,6 +3475,35 @@
             ],
             "description": "JSON Web Token (JWT) for webman plugin",
             "install-path": "../tinywan/jwt"
+        },
+        {
+            "name": "tinywan/webman-xhprof",
+            "version": "v1.0.0",
+            "version_normalized": "1.0.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://mirrors.tencent.com/repository/composer/tinywan/webman-xhprof/v1.0.0/tinywan-webman-xhprof-v1.0.0.zip",
+                "reference": "99e4313a91aad52fed38ac74db6f1d3a8d27ed42",
+                "shasum": ""
+            },
+            "require": {
+                "ext-xhprof": "*",
+                "php": ">=7.2",
+                "workerman/webman-framework": "^1.4.1"
+            },
+            "time": "2023-06-02T11:44:36+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Tinywan\\Xhprof\\": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Webman plugin tinywan/webman-xhprof",
+            "install-path": "../tinywan/webman-xhprof"
         },
         {
             "name": "topthink/think-container",

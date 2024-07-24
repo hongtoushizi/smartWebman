@@ -12,11 +12,14 @@
  * @license   http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
+use Tinywan\Xhprof\XhprofMiddleware;
+
 return [
     // 默认中间件栈'
     '' => [
         app\middleware\ActionLog::class,
         app\middleware\CrossDomain::class,
+        XhprofMiddleware::class,
     ],
 
 
