@@ -69,6 +69,7 @@
     ]
   },
   "require-dev": {
-    "phpunit/phpunit": "^10.5"
+    "phpunit/phpunit": "^10.5",
+    "webman-tech/debugbar": "^2.2"
   }
 }

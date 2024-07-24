@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6a6b722b97bd527f0cc18e18345200c1",
+    "content-hash": "66b835924e32a8390ad97e24c6982953",
     "packages": [
         {
             "name": "brick/math",
@@ -2577,6 +2577,64 @@
     ],
     "packages-dev": [
         {
+            "name": "maximebf/debugbar",
+            "version": "v1.22.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://mirrors.tencent.com/repository/composer/maximebf/debugbar/v1.22.3/maximebf-debugbar-v1.22.3.zip",
+                "reference": "7aa9a27a0b1158ed5ad4e7175e8d3aee9a818b96",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2|^8",
+                "psr/log": "^1|^2|^3",
+                "symfony/var-dumper": "^4|^5|^6|^7"
+            },
+            "require-dev": {
+                "dbrekelmans/bdi": "^1",
+                "phpunit/phpunit": "^8|^9",
+                "symfony/panther": "^1|^2.1",
+                "twig/twig": "^1.38|^2.7|^3.0"
+            },
+            "suggest": {
+                "kriswallsmith/assetic": "The best way to manage assets",
+                "monolog/monolog": "Log using Monolog",
+                "predis/predis": "Redis storage"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.22-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DebugBar\\": "src/DebugBar/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maxime Bouroumeau-Fuseau",
+                    "email": "maxime.bouroumeau@gmail.com",
+                    "homepage": "http://maximebf.com"
+                },
+                {
+                    "name": "Barry vd. Heuvel",
+                    "email": "barryvdh@gmail.com"
+                }
+            ],
+            "description": "Debug bar in the browser for php application",
+            "homepage": "https://github.com/maximebf/php-debugbar",
+            "keywords": [
+                "debug",
+                "debugbar"
+            ],
+            "time": "2024-04-03T19:39:26+00:00"
+        },
+        {
             "name": "myclabs/deep-copy",
             "version": "1.12.0",
             "dist": {
@@ -3775,6 +3833,39 @@
             ],
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
             "time": "2024-03-03T12:36:25+00:00"
+        },
+        {
+            "name": "webman-tech/debugbar",
+            "version": "v2.2.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://mirrors.tencent.com/repository/composer/webman-tech/debugbar/v2.2.2/webman-tech-debugbar-v2.2.2.zip",
+                "reference": "032171f0c0f021a580837c161558a3f15adda1ff",
+                "shasum": ""
+            },
+            "require": {
+                "maximebf/debugbar": "^1.18",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "illuminate/database": "^8.83",
+                "illuminate/events": "^8.83",
+                "illuminate/redis": "^8.83",
+                "symfony/finder": "^5.4",
+                "topthink/think-orm": "^2.0",
+                "workerman/webman-framework": "^1.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WebmanTech\\Debugbar\\": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Webman plugin webman-tech/debugbar",
+            "time": "2024-03-19T13:38:52+00:00"
         }
     ],
     "aliases": [],

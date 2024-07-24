@@ -14,10 +14,10 @@ class ComposerStaticInit6ec3c93a41026fd9ff565142f2ec2413
         'a1105708a18b76903365ca1c4aa61b02' => __DIR__ . '/..' . '/symfony/translation/Resources/functions.php',
         '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
         '253c157292f75eb38082b5acb06f3f01' => __DIR__ . '/..' . '/nikic/fast-route/src/functions.php',
+        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         '9b552a3cc426e3287cc811caefa3cf53' => __DIR__ . '/..' . '/topthink/think-helper/src/helper.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
-        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         'ef65a1626449d89d0811cf9befce46f0' => __DIR__ . '/..' . '/illuminate/events/functions.php',
         '2f6ef90760bcd9fa3ea7f752e1776bd1' => __DIR__ . '/..' . '/isszz/webman-hashids/src/helpers.php',
         'b601d78e85da6f830c38c70f8e8382e6' => __DIR__ . '/..' . '/next/var-dumper/src/helpers.php',
@@ -55,6 +55,7 @@ class ComposerStaticInit6ec3c93a41026fd9ff565142f2ec2413
             'Workerman\\' => 10,
             'Webman\\Medoo\\' => 13,
             'Webman\\' => 7,
+            'WebmanTech\\Debugbar\\' => 20,
         ),
         'T' => 
         array (
@@ -126,6 +127,7 @@ class ComposerStaticInit6ec3c93a41026fd9ff565142f2ec2413
             'Dotenv\\' => 7,
             'Doctrine\\Inflector\\' => 19,
             'DeepCopy\\' => 9,
+            'DebugBar\\' => 9,
         ),
         'C' => 
         array (
@@ -181,6 +183,10 @@ class ComposerStaticInit6ec3c93a41026fd9ff565142f2ec2413
         'Webman\\' => 
         array (
             0 => __DIR__ . '/..' . '/workerman/webman-framework/src',
+        ),
+        'WebmanTech\\Debugbar\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/webman-tech/debugbar/src',
         ),
         'Tinywan\\Xhprof\\' => 
         array (
@@ -349,6 +355,10 @@ class ComposerStaticInit6ec3c93a41026fd9ff565142f2ec2413
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
+        ),
+        'DebugBar\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/maximebf/debugbar/src/DebugBar',
         ),
         'Complex\\' => 
         array (
