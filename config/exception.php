@@ -13,7 +13,8 @@
  */
 
 return [
-    '' => support\exception\Handler::class,
+//    '' => support\exception\Handler::class,
 //    '' => app\exception\BaseException::class,
+    '' => app\exception\ExceptionHandler::class
 
 ];

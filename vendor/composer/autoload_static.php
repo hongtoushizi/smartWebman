@@ -17,9 +17,11 @@ class ComposerStaticInit6ec3c93a41026fd9ff565142f2ec2413
         '9b552a3cc426e3287cc811caefa3cf53' => __DIR__ . '/..' . '/topthink/think-helper/src/helper.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
-        'ef65a1626449d89d0811cf9befce46f0' => __DIR__ . '/..' . '/illuminate/events/functions.php',
-        'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
+        'ef65a1626449d89d0811cf9befce46f0' => __DIR__ . '/..' . '/illuminate/events/functions.php',
+        '2f6ef90760bcd9fa3ea7f752e1776bd1' => __DIR__ . '/..' . '/isszz/webman-hashids/src/helpers.php',
+        'b601d78e85da6f830c38c70f8e8382e6' => __DIR__ . '/..' . '/next/var-dumper/src/helpers.php',
+        'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
         'da5b71a9ad8465d48da441e2f36823b6' => __DIR__ . '/../..' . '/support/helpers.php',
     );
 
@@ -35,6 +37,10 @@ class ComposerStaticInit6ec3c93a41026fd9ff565142f2ec2413
         's' => 
         array (
             'support\\' => 8,
+        ),
+        'i' => 
+        array (
+            'isszz\\hashids\\' => 14,
         ),
         'a' => 
         array (
@@ -80,6 +86,10 @@ class ComposerStaticInit6ec3c93a41026fd9ff565142f2ec2413
             'PhpOption\\' => 10,
             'PhpOffice\\PhpSpreadsheet\\' => 25,
         ),
+        'N' => 
+        array (
+            'Next\\VarDumper\\' => 15,
+        ),
         'M' => 
         array (
             'Monolog\\' => 8,
@@ -97,6 +107,10 @@ class ComposerStaticInit6ec3c93a41026fd9ff565142f2ec2413
             'Illuminate\\Contracts\\' => 21,
             'Illuminate\\Container\\' => 21,
             'Illuminate\\Bus\\' => 15,
+        ),
+        'H' => 
+        array (
+            'Hashids\\' => 8,
         ),
         'G' => 
         array (
@@ -143,6 +157,10 @@ class ComposerStaticInit6ec3c93a41026fd9ff565142f2ec2413
         'support\\' => 
         array (
             0 => __DIR__ . '/..' . '/workerman/webman-framework/src/support',
+        ),
+        'isszz\\hashids\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/isszz/webman-hashids/src',
         ),
         'app\\' => 
         array (
@@ -249,6 +267,10 @@ class ComposerStaticInit6ec3c93a41026fd9ff565142f2ec2413
         array (
             0 => __DIR__ . '/..' . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet',
         ),
+        'Next\\VarDumper\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/next/var-dumper/src',
+        ),
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
@@ -263,9 +285,9 @@ class ComposerStaticInit6ec3c93a41026fd9ff565142f2ec2413
         ),
         'Illuminate\\Support\\' => 
         array (
-            0 => __DIR__ . '/..' . '/illuminate/macroable',
+            0 => __DIR__ . '/..' . '/illuminate/collections',
             1 => __DIR__ . '/..' . '/illuminate/conditionable',
-            2 => __DIR__ . '/..' . '/illuminate/collections',
+            2 => __DIR__ . '/..' . '/illuminate/macroable',
             3 => __DIR__ . '/..' . '/illuminate/support',
         ),
         'Illuminate\\Redis\\' => 
@@ -299,6 +321,10 @@ class ComposerStaticInit6ec3c93a41026fd9ff565142f2ec2413
         'Illuminate\\Bus\\' => 
         array (
             0 => __DIR__ . '/..' . '/illuminate/bus',
+        ),
+        'Hashids\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hashids/hashids/src',
         ),
         'GrahamCampbell\\ResultType\\' => 
         array (

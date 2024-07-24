@@ -326,6 +326,69 @@
             "install-path": "../graham-campbell/result-type"
         },
         {
+            "name": "hashids/hashids",
+            "version": "4.1.0",
+            "version_normalized": "4.1.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://mirrors.tencent.com/repository/composer/hashids/hashids/4.1.0/hashids-hashids-4.1.0.zip",
+                "reference": "8cab111f78e0bd9c76953b082919fc9e251761be",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": "^7.2 || ^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.0 || ^9.4",
+                "squizlabs/php_codesniffer": "^3.5"
+            },
+            "suggest": {
+                "ext-bcmath": "Required to use BC Math arbitrary precision mathematics (*).",
+                "ext-gmp": "Required to use GNU multiple precision mathematics (*)."
+            },
+            "time": "2020-11-26T19:24:33+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.1-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Hashids\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Akimov",
+                    "email": "ivan@barreleye.com"
+                },
+                {
+                    "name": "Vincent Klaiber",
+                    "email": "hello@doubledip.se"
+                }
+            ],
+            "description": "Generate short, unique, non-sequential ids (like YouTube and Bitly) from numbers",
+            "homepage": "https://hashids.org/php",
+            "keywords": [
+                "bitly",
+                "decode",
+                "encode",
+                "hash",
+                "hashid",
+                "hashids",
+                "ids",
+                "obfuscate",
+                "youtube"
+            ],
+            "install-path": "../hashids/hashids"
+        },
+        {
             "name": "illuminate/bus",
             "version": "v10.48.17",
             "version_normalized": "10.48.17.0",
@@ -892,6 +955,55 @@
             "install-path": "../illuminate/support"
         },
         {
+            "name": "isszz/webman-hashids",
+            "version": "v0.0.1",
+            "version_normalized": "0.0.1.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://mirrors.tencent.com/repository/composer/isszz/webman-hashids/v0.0.1/isszz-webman-hashids-v0.0.1.zip",
+                "reference": "9b03588bd00e0c335dc95d9b8a55edfa6f0e85ca",
+                "shasum": ""
+            },
+            "require": {
+                "hashids/hashids": "^4.1.0",
+                "php": ">=8.0.0",
+                "workerman/webman-framework": ">=1.4"
+            },
+            "time": "2023-08-01T15:27:20+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "dev-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "isszz\\hashids\\": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "isszz",
+                    "email": "isszz@qq.com"
+                }
+            ],
+            "description": "Webman Hashids Used to generate a youtube-like ID from a digital ID",
+            "keywords": [
+                "Bilibili BV",
+                "hashids",
+                "webman",
+                "youtube id"
+            ],
+            "install-path": "../isszz/webman-hashids"
+        },
+        {
             "name": "maennchen/zipstream-php",
             "version": "3.1.0",
             "version_normalized": "3.1.0.0",
@@ -1264,6 +1376,48 @@
                 "time"
             ],
             "install-path": "../nesbot/carbon"
+        },
+        {
+            "name": "next/var-dumper",
+            "version": "0.1",
+            "version_normalized": "0.1.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://mirrors.tencent.com/repository/composer/next/var-dumper/0.1/next-var-dumper-0.1.zip",
+                "reference": "ec86735e0df42240acc57341e4d5c1b8cff6b522",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4",
+                "symfony/var-dumper": "*"
+            },
+            "time": "2023-10-31T02:27:04+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Next\\VarDumper\\": "src/"
+                }
+            },
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "chengyao",
+                    "email": "987861463@qq.com"
+                }
+            ],
+            "homepage": "https://github.com/next-laboratory/var-dumper",
+            "install-path": "../next/var-dumper"
         },
         {
             "name": "nikic/fast-route",

@@ -40,7 +40,9 @@
     "ext-simplexml": "*",
     "tinywan/webman-xhprof": "^1.0",
     "illuminate/database": "^10.48",
-    "illuminate/pagination": "^10.48"
+    "illuminate/pagination": "^10.48",
+    "isszz/webman-hashids": "^0.0.1",
+    "next/var-dumper": "^0.1.0"
   },
   "suggest": {
     "ext-event": "For better performance. "

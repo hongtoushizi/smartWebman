@@ -33,7 +33,17 @@ class UserController
     public function testRedis(Request $request)
     {
 
-        response("ok");
+        $id       = 1132423423423432222;
+        $encodeId = id_encode($id);
+
+        $decodeId = id_decode($encodeId);
+        $data     = [
+            'id'        => $id,
+            'encode_id' => $encodeId,
+            'decode_id' => $decodeId,
+        ];
+        echo "fsdf";
+        return response(json_encode($data, true));
     }
 
 
